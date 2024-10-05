@@ -14,6 +14,8 @@ const swiper1 = new Swiper('.swiper', {
 
 // slider-02
 $('.owl-carousel1').owlCarousel({
+    // rtl:true,
+    lt1:true,
     loop: true,
     autoplay: true,
     margin: 10,
@@ -53,3 +55,17 @@ $('.owl-carousel').owlCarousel({
         },
     }
 })
+
+// section-06
+var swiper3 = new Swiper(".swiper3", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: true,
+    autoplay: {
+        delay: 2000,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
