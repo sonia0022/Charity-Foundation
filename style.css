@@ -808,7 +808,7 @@ p {
 }
 
 /* section-06 */
-.swiper-slide:before {
+.slide1:before {
     content: '';
     position: absolute;
     left: 50%;
@@ -819,19 +819,19 @@ p {
     border-color: #fff transparent;
 }
 
-.swiper-slide {
+.slide1 {
     background-color: #fa6f1c;
     color: white;
 }
 
-.swiper-slide {
+.slide1 {
     padding: 3em 0;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.swiper-slide .first:after {
+.slide1 .first:after {
     content: '';
     display: block;
     max-width: 170px;
